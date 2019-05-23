@@ -1,0 +1,24 @@
+{
+  "name": "jurassic-bark",
+  "version": "1.0.0",
+  "description": "NodeJS middleware to retrieve pictures of dogs from a 3rd party API",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "author": "Aviral Dua",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "errorhandler": "^1.5.1",
+    "express": "^4.17.0",
+    "mongodb": "^2.2.16",
+    "mongoose": "^5.5.10",
+    "request": "^2.88.0",
+    "sapcai": "^4.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  }
+}
