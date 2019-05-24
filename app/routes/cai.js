@@ -3,7 +3,7 @@ var request = require('request');
 const mongoose = require('mongoose');
 var Log = require('../models/logSchema')
 
-var db = mongoose.connect('mongodb://localhost:27017/test', {
+var db = mongoose.connect('mongodb://host.docker.internal:27017/test', {
   useNewUrlParser: true
 });
 
