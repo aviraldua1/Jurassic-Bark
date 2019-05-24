@@ -11,7 +11,9 @@ Steps to run the application:
 
 
 NOTE: Due to firewall issues, Docker connection from node to mongo might give ECONNECT-REFUSED error. In that case, Skip steps 4 and 5,
-and just type: npm start
+and just type:
+a. npm install
+b. npm start
 
 
 #Conversational-AI
