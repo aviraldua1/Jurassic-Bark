@@ -14,7 +14,7 @@
     "errorhandler": "^1.5.1",
     "express": "^4.17.0",
     "mongodb": "^2.2.16",
-    "mongoose": "^5.5.10",
+    "mongoose": "^5.7.5",
     "request": "^2.88.0",
     "sapcai": "^4.1.0"
   },
